@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../react.js"></script>
+    <title>Document</title>
+    <style>
+		#root {
+			width: 90vw;
+			height: 90vh;
+
+            border: 1px solid #00809D;
+            position: relative;
+		}
+		#root2 {
+			width: 90vw;
+			height: 90vh;
+
+            border: 1px solid #00809D;
+            position: relative;
+		}
+		.btn {
+			width: 138px;
+			height: 36px;
+
+			background-color: #00809D;
+			box-shadow: 0px -1px 1px rgba(0, 0, 0, 0.1), 0px 2px 3px rgba(0, 0, 0, 0.1);
+			border-radius: 24px; 
+
+			position: absolute;
+			top: 100%;
+			margin-top: -18px;
+			left: 50%;
+			margin-left: -69px;
+
+			color: #FFFFFF;
+			font-weight: 500;
+			font-size: 13px;
+			line-height: 36px;
+			text-align: center;
+			
+			cursor:pointer;
+		}
+	</style>
+</head>
+<body>
+	<div id="root">
+		<div class="btn" onclick="add(v => v + 1)">Run</div>
+	</div>
+	<div class="" id="root2">
+		<div class="btn" onclick="add(v => v + 1)">Run</div>
+	</div>
+    
+    <script src="./script.js">        
+    </script>
+</body>
+</html>
